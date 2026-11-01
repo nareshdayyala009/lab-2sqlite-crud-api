@@ -99,8 +99,8 @@ Key highlights of the implementation:
 ## 5. Project Folder Structure
 
 ```text
-lab-02/
-├── screenshots/
+lab-2sqlite-crud-api/
+├── LAB 2/
 │   ├── database-verification.png  # DB Browser for SQLite showing 9 records
 │   ├── delete-book.png            # Postman DELETE /books/:id response
 │   ├── get-all-books.png          # Postman GET /books/ response
@@ -479,7 +479,7 @@ To verify that changes are written directly to disk and not just stored in volat
 
 ## 15. Screenshots
 
-All six authentic test execution screenshots are stored in the [`screenshots/`](screenshots/) directory and displayed under their respective sections above:
+All six authentic test execution screenshots are stored in the [`LAB 2/`](<LAB 2>) directory and displayed under their respective sections above:
 
 | # | Screenshot File | Description | Section Link |
 | :-: | :--- | :--- | :--- |
