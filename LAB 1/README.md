@@ -1,3 +1,5 @@
+RENDER LIVE LINK : https://lab-2sqlite-crud-api.onrender.com/
+
 # Lab 1: Node.js and Express Server
 
 > **Deployment Status**: *Not deployed yet (Running locally on `http://localhost:3000`)*  
