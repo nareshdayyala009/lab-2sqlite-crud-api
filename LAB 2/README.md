@@ -1,3 +1,5 @@
+render live link: https://lab-2-sqlite-crud-api.onrender.com/
+
 # Lab 2: SQLite and Relational Database Operations
 
 [![Node.js Version](https://img.shields.io/badge/Node.js-v18%2B-339933?logo=node.js&logoColor=white)](https://nodejs.org/)
