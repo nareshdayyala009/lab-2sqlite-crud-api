@@ -311,7 +311,7 @@ Retrieves the full list of books currently stored in the database.
 ```
 
 #### Screenshot: GET All Books
-![GET All Books](<LAB 2/get-all-books.png>)
+![GET All Books](<screenshots/get-all-books.png>)
 
 ---
 
@@ -339,7 +339,7 @@ Fetches a single book matching the URL parameter `id`.
 ```
 
 #### Screenshot: GET Book by ID
-![GET Book by ID](<LAB 2/get-book-by-id.png>)
+![GET Book by ID](<screenshots/get-book-by-id.png>)
 
 ---
 
@@ -368,7 +368,7 @@ Inserts a new book into the database. Validates that `title`, `author`, `price`,
 ```
 
 #### Screenshot: POST Add Book
-![POST Add Book](<LAB 2/post-add-book.png>)
+![POST Add Book](<screenshots/post-add-book.png>)
 
 ---
 
@@ -402,7 +402,7 @@ Modifies details of an existing book by its primary key `id`.
 ```
 
 #### Screenshot: PUT Update Book
-![PUT Update Book](<LAB 2/put-update-book.png>)
+![PUT Update Book](<screenshots/put-update-book.png>)
 
 ---
 
@@ -426,7 +426,7 @@ Permanently removes a book record matching the specified ID from the database.
 ```
 
 #### Screenshot: DELETE Book
-![DELETE Book](<LAB 2/delete-book.png>)
+![DELETE Book](<screenshots/delete-book.png>)
 
 ---
 
@@ -473,7 +473,7 @@ To verify that changes are written directly to disk and not just stored in volat
    - Data types properly preserved across all columns.
 
 #### Screenshot: Database Verification
-![Database Verification](<LAB 2/database-verification.png>)
+![Database Verification](<screenshots/database-verification.png>)
 
 ---
 
@@ -483,12 +483,12 @@ All six authentic test execution screenshots are stored in the [`LAB 2/`](<LAB 2
 
 | # | Screenshot File | Description | Section Link |
 | :-: | :--- | :--- | :--- |
-| 1 | [`get-all-books.png`](<LAB 2/get-all-books.png>) | Postman `GET /books/` (200 OK) retrieving all books | [View Screenshot](#screenshot-get-all-books) |
-| 2 | [`get-book-by-id.png`](<LAB 2/get-book-by-id.png>) | Postman `GET /books/1/` (200 OK) retrieving book by ID | [View Screenshot](#screenshot-get-book-by-id) |
-| 3 | [`post-add-book.png`](<LAB 2/post-add-book.png>) | Postman `POST /books/` (201 Created) adding Clean Code | [View Screenshot](#screenshot-post-add-book) |
-| 4 | [`put-update-book.png`](<LAB 2/put-update-book.png>) | Postman `PUT /books/11/` (200 OK) updating book | [View Screenshot](#screenshot-put-update-book) |
-| 5 | [`delete-book.png`](<LAB 2/delete-book.png>) | Postman `DELETE /books/11/` (200 OK) deleting book | [View Screenshot](#screenshot-delete-book) |
-| 6 | [`database-verification.png`](<LAB 2/database-verification.png>) | DB Browser for SQLite showing verified records in `database.db` | [View Screenshot](#screenshot-database-verification) |
+| 1 | [`get-all-books.png`](<screenshots/get-all-books.png>) | Postman `GET /books/` (200 OK) retrieving all books | [View Screenshot](#screenshot-get-all-books) |
+| 2 | [`get-book-by-id.png`](<screenshots/get-book-by-id.png>) | Postman `GET /books/1/` (200 OK) retrieving book by ID | [View Screenshot](#screenshot-get-book-by-id) |
+| 3 | [`post-add-book.png`](<screenshots/post-add-book.png>) | Postman `POST /books/` (201 Created) adding Clean Code | [View Screenshot](#screenshot-post-add-book) |
+| 4 | [`put-update-book.png`](<screenshots/put-update-book.png>) | Postman `PUT /books/11/` (200 OK) updating book | [View Screenshot](#screenshot-put-update-book) |
+| 5 | [`delete-book.png`](<screenshots/delete-book.png>) | Postman `DELETE /books/11/` (200 OK) deleting book | [View Screenshot](#screenshot-delete-book) |
+| 6 | [`database-verification.png`](<screenshots/database-verification.png>) | DB Browser for SQLite showing verified records in `database.db` | [View Screenshot](#screenshot-database-verification) |
 
 ---
 

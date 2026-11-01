@@ -101,7 +101,7 @@ Backend web development begins with understanding how a server receives client r
 ## 6. Project Folder Structure
 
 ```text
-lab-01/
+LAB 1/
 ├── screenshots/               # Folder for holding test execution screenshots
 │   ├── welcome.png            # GET / response in browser or Postman
 │   ├── about.png              # GET /about JSON response
@@ -130,9 +130,9 @@ lab-01/
 
 ### Step-by-Step Installation
 
-1. Navigate into the `lab-01` directory:
+1. Navigate into the `LAB 1` directory:
    ```bash
-   cd lab-01
+   cd LAB 1
    ```
 
 2. Install dependencies:
@@ -147,7 +147,7 @@ lab-01/
 
 `package.json` is the manifest file of any Node.js project. It contains essential configuration details:
 
-- **`name`**: The identifier of the project (e.g., `"lab-01"`).
+- **`name`**: The identifier of the project (e.g., `"LAB 1"`).
 - **`version`**: Current semantic version of the application (`"1.0.0"`).
 - **`description`**: A short summary explaining what this package or project does.
 - **`main`**: The entry point file of the application (`"app.js"`).
@@ -180,7 +180,7 @@ lab-01/
 The plain HTTP server demonstrates how Node.js communicates over HTTP using only its core built-in library.
 
 ### Starting the Server
-From inside the `lab-01` folder, run:
+From inside the `LAB 1` folder, run:
 ```bash
 npm run http-server
 ```
@@ -210,7 +210,7 @@ Press Ctrl+C to stop the server.
 The Express server in `app.js` handles routing, structured JSON responses, and 404 error handling.
 
 ### Starting the Server
-From inside the `lab-01` folder, run:
+From inside the `LAB 1` folder, run:
 ```bash
 npm start
 ```
@@ -326,7 +326,7 @@ PORT=5000 npm start
 
 ## 12. Screenshots
 
-*Note: Save your actual screenshots in the `lab-01/screenshots/` folder with the filenames listed below:*
+*Note: Save your actual screenshots in the `LAB 1/screenshots/` folder with the filenames listed below:*
 
 ### 1. GET / Welcome Response
 Displays the welcome text in the browser / Postman.  
@@ -356,7 +356,7 @@ Terminal view showing the server active on port 3000.
 | :-: | :--- | :--- | :--- |
 | **1** | Port 3000 already in use (`EADDRINUSE`). | Another process (e.g., an earlier server instance) was already occupying port 3000. | Added flexible port selection (`process.env.PORT || 3000`) and closed prior processes using `Ctrl + C` or PowerShell `Stop-Process`. |
 | **2** | Default Express 404 returns plain HTML instead of JSON. | Standard Express returns `Cannot GET /route` as HTML when no handler matches. | Added a catch-all middleware (`app.use((req, res) => {...})`) at the end of the route definitions to return structured JSON. |
-| **3** | Committing bulky dependencies to Git repository. | Forgetting to ignore `node_modules` causes repositories to balloon in size. | Created `.gitignore` in both parent and `lab-01/` directories explicitly listing `node_modules/` and `.env`. |
+| **3** | Committing bulky dependencies to Git repository. | Forgetting to ignore `node_modules` causes repositories to balloon in size. | Created `.gitignore` in both parent and `LAB 1/` directories explicitly listing `node_modules/` and `.env`. |
 | **4** | Dynamic cloud platforms failing to bind to port 3000. | Cloud providers (Render, Heroku, AWS) assign dynamic ports via `process.env.PORT`. | Configured `const PORT = process.env.PORT || 3000` to seamlessly work in both local and hosted environments. |
 
 ---
@@ -411,10 +411,10 @@ To deploy this Express application online for free:
 2. Sign in to [render.com](https://render.com/) and click **New + > Web Service**.
 3. Connect your GitHub repository.
 4. Configure the settings:
-   - **Root Directory**: `lab-01`
+   - **Root Directory**: `LAB 1`
    - **Build Command**: `npm install`
    - **Start Command**: `node app.js`
-5. Click **Create Web Service**. Render will assign a public live URL (e.g., `https://lab-01-naresh.onrender.com`).
+5. Click **Create Web Service**. Render will assign a public live URL (e.g., `https://LAB 1-naresh.onrender.com`).
 6. Update the deployment URL at the top of this README once live.
 
 ---
