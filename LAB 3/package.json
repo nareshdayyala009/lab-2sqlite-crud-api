@@ -1,0 +1,35 @@
+{
+  "name": "lab-3-rest-api",
+  "version": "1.0.0",
+  "description": "Lab 3 - REST API, Query Parameters, Validation, and Debugging",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "sqlite",
+    "rest-api",
+    "query-parameters",
+    "validation",
+    "debugging"
+  ],
+  "author": "Dayyala Naresh",
+  "license": "ISC",
+  "engines": {
+    "node": ">=20.0.0 <=22.x"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "sqlite": "^5.1.1",
+    "sqlite3": "^6.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  },
+  "overrides": {
+    "minimatch": "^11.0.3"
+  }
+}
